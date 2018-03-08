@@ -24,6 +24,6 @@ import {morseTranslations} from '../data/morse-translations';
     },
 })
 export default class Sidebar extends Vue {
-    public translations: string = morseTranslations;
+    public translations: Array<{symbol: string, char: string}> = morseTranslations;
 }
 </script>
